@@ -1,11 +1,11 @@
 import React from 'react';
 import '../../../App.css';
-
+import artic from '../../../resources/articles/Kicinska_Chemosphere_2019a.pdf'
 export default function EnvA() {
   return  (
     <div> 
       <h1 className='sub_products'>
-        <a href="articles/Kicinska_Chemosphere_2019a.pdf">Zobacz artykuł</a>
+        <a href={artic}>Zobacz artykuł</a>
       </h1>
       
       <h1 className='sub_products'>
